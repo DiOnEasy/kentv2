@@ -1,0 +1,99 @@
+.advantages__item:first-child::before {
+    content: '';
+    width: 90px;
+    height: 251px;
+    left: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-1.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.advantages__item:first-child::after {
+    content: '';
+    width: 258px;
+    height: 88px;
+    right: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-2.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item:nth-child(2)::before {
+    content: '';
+    width: 106px;
+    height: 391px;
+    left: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-3.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item:nth-child(3)::before {
+    content: '';
+    width: 174px;
+    height: 118px;
+    left: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-4.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.advantages__item:nth-child(3)::after {
+    content: '';
+    width: 422px;
+    height: 104px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-5.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item:last-child::before {
+    content: '';
+    width: 80px;
+    height: 247px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-6.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.links::before {
+    content: '';
+    width: 171px;
+    height: 210px;
+    left: 0;
+    top: 0;
+    background: url(../img/links/triangle-1.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.links::after {
+    content: '';
+    width: 479px;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/links/triangle-2.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}

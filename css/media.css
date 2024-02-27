@@ -1,0 +1,347 @@
+@media (max-width: 1280px) {
+    .presented__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slots__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .advantages__content,
+    .slots__items_bottom {
+        gap: 15px;
+    }
+
+    .slots__items {
+        margin-bottom: 0;
+    }
+
+    .slots__content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .advantages__item {
+        padding: 20px 15px;
+    }
+
+    .presented__content {
+        gap: 15px;
+    }
+
+    .slots__items {
+        row-gap: 10px;
+        column-gap: 15px;
+    }
+
+    header,
+    main,
+    .footer__text,
+    .footer__all-rights {
+        padding: 0 30px;
+    }
+
+    .advantages__item:nth-child(2),
+    .advantages__item:nth-child(4) {
+        box-shadow: 5px 0px 30px #EE0261;
+    }
+
+    .advantages__item:nth-child(1),
+    .advantages__item:nth-child(3) {
+        box-shadow: -5px 0px 30px #4D0D27;
+    }
+
+    .reviews__profile {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .reviews__item {
+        padding: 15px;
+    }
+
+    .feedback__form form {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .feedback__message textarea {
+        height: 200px;
+    }
+
+    .feedback__message {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback__info input,
+    .feedback__message textarea,
+    .feedback__info button {
+
+        width: 95%;
+    }
+
+    .header__nav-wrapper {
+        position: relative;
+    }
+
+    .header__nav {
+
+        justify-content: flex-start;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 44px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999;
+        background: #460b25f1;
+        width: 100vw;
+        padding: 50px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header__nav_opened {
+        display: flex;
+    }
+
+    .header {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .laptop__chip {
+        width: 150px;
+
+    }
+
+    .laptop__chip2 {
+        width: 100px;
+
+    }
+
+    .laptop__card {
+        width: 150px;
+    }
+
+    .links__buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links__buttons a {
+        width: 90%;
+    }
+
+    .advantages__content,
+    .presented__content {
+        grid-template-columns: 1fr;
+    }
+
+    .desc__table th,
+    .methods__table th {
+        font-size: 24px;
+    }
+
+    .desc__table td,
+    .methods__table td {
+        font-size: 18px;
+    }
+
+    .reviews__content {
+        flex-direction: column;
+    }
+
+    .reviews__item {
+        width: 100%;
+    }
+
+    .links__header {
+        font-size: 64px;
+        line-height: 80px;
+    }
+
+    .licence__header,
+    .slots__header,
+    .mirror__header,
+    .working-mirror__header,
+    .bonus__header,
+    .demo__header,
+    .supplier__header,
+    .methods__header,
+    .payment__header,
+    .support__header,
+    .mobile__header,
+    .reviews__header,
+    .feedback__header,
+    .desc__header,
+    .presented__desc,
+    .presented__header,
+    .faq__header {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+
+    .presented__text,
+    .licence__text,
+    .mirror__text,
+    .working-mirror__text,
+    .bonus__text,
+    .demo__text,
+    .supplier__text,
+    .payment__desc,
+    .payment__text,
+    .feedback__text,
+    .mobile__text {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 25px;
+
+    }
+
+    .faq__item {
+        padding: 10px 30px;
+    }
+
+    .header__logo img {
+        width: 300px;
+    }
+
+    .payment__content {
+        gap: 15px;
+    }
+
+    .payment__item {
+        padding: 12px 15px 9px;
+        min-width: auto;
+        width: 180px;
+        height: 180px;
+
+    }
+
+    .payment__item-img img {
+        transform: scale(0.5);
+    }
+
+    .payment__item-img {
+        height: 100px;
+    }
+
+    .payment__item {}
+}
+
+@media (max-width: 600px) {
+
+    header,
+    main,
+    .footer__text,
+    .footer__all-rights {
+        padding: 0 12px;
+    }
+
+    .desc__table td,
+    .desc__table th,
+    .methods__table td,
+    .methods__table th {
+        padding: 10px 0 10px 5px;
+    }
+
+    .desc__table th,
+    .methods__table th {
+        font-size: 18px;
+    }
+
+    .desc__table td,
+    .methods__table td {
+        font-size: 14px;
+    }
+
+    .slots__items,
+    .slots__content,
+    .slots__items_bottom {
+        gap: 5px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .licence__header,
+    .slots__header,
+    .mirror__header,
+    .working-mirror__header,
+    .bonus__header,
+    .demo__header,
+    .supplier__header,
+    .methods__header,
+    .payment__header,
+    .support__header,
+    .mobile__header,
+    .reviews__header,
+    .feedback__header,
+    .desc__header,
+    .presented__desc,
+    .presented__header,
+    .faq__header {
+        font-size: 26px;
+        margin-bottom: 10px;
+        line-height: 32px;
+    }
+
+    .presented__text,
+    .licence__text,
+    .mirror__text,
+    .working-mirror__text,
+    .bonus__text,
+    .demo__text,
+    .supplier__text,
+    .payment__desc,
+    .payment__text,
+    .feedback__text,
+    .mobile__text {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .links__header {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+
+
+    .payment__item {
+        padding: 12px 15px 9px;
+        min-width: auto;
+        width: 140px;
+        height: 140px;
+
+    }
+
+    .payment__item-img img {
+        transform: scale(0.3);
+    }
+
+    .payment__item-img {
+        height: 80px;
+    }
+
+    .payment__item-header {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
